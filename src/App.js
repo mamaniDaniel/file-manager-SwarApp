@@ -5,9 +5,10 @@ import connectorNodeV1 from '@opuscapita/react-filemanager-connector-node-v1';
 //S: server and files cfg
 var ServerUrl= window.location.href.match(/(https?:\/\/[^\/]+)/)[0]; //A: tomar protocolo, servidor y puerto de donde esta esta pagina
 
+console.log("serverUrl: " + ServerUrl)
 const apiOptions = {
   ...connectorNodeV1.apiOptions,
-  apiRoot: ServerUrl
+  apiRoot: `${ServerUrl}/api/filemanager`
 }
 
 function App() {
