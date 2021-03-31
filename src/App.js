@@ -2,9 +2,12 @@ import React from 'react';
 import { FileManager, FileNavigator } from '@opuscapita/react-filemanager';
 import connectorNodeV1 from '@opuscapita/react-filemanager-connector-node-v1';
 
+//S: server and files cfg
+var ServerUrl= window.location.href.match(/(https?:\/\/[^\/]+)/)[0]; //A: tomar protocolo, servidor y puerto de donde esta esta pagina
+
 const apiOptions = {
   ...connectorNodeV1.apiOptions,
-  apiRoot: `http://localhost:3020` // Or you local Server Node V1 installation.
+  apiRoot: ServerUrl
 }
 
 function App() {
