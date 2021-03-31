@@ -1,6 +1,7 @@
 {
   "name": "filemanager-frontend",
   "version": "0.1.0",
+  "homepage": "./",
   "private": true,
   "dependencies": {
     "@opuscapita/react-filemanager": "^1.1.4",
