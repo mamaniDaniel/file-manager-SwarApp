@@ -5,13 +5,13 @@
   "private": true,
   "dependencies": {
     "@opuscapita/react-filemanager": "^1.1.4",
-    "@opuscapita/react-filemanager-connector-node-v1": "^1.1.4",
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
+    "react-filemanager-connector-node-v1": "git+https://github.com/mamaniDaniel/file-manager-node-conector",
+    "react-scripts": "^4.0.3",
     "web-vitals": "^1.1.1"
   },
   "scripts": {
